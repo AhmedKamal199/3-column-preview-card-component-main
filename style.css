@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Lexend+Deca&family=Neonderthaw&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Neonderthaw&display=swap");
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  font-size: 15px;
+  font-family: "Lexend Deca", cursive;
+  font-weight: 400px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.orange {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.orange-c{
+    color: hsl(31, 77%, 52%);
+}
+
+.blue {
+  background: hsl(184, 100%, 22%);
+}
+
+.blue-c{
+    color: hsl(184, 100%, 22%);
+}
+
+.green {
+  background: hsl(179, 100%, 13%);
+}
+
+.green-c{
+    color: hsl(179, 100%, 13%);
+}
+
+path {
+  /* color: hsla(0, 0%, 100%, 0.75); */
+  color: hsl(31, 77%, 52%);
+}
+
+h2 {
+  font-family: "Big Shoulders Display";
+  text-transform: uppercase;
+}
+
+button{
+    background-color:hsl(0, 0%, 95%);
+    text-transform: capitalize;
+    border:none;
+    border-radius: 10px;
+    width: 50%;
+    padding: 5px;
+}
